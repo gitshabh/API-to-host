@@ -15,7 +15,7 @@ async def get_picture(user: User):
     decodeit.write(base64.b64decode((encoded_image)))
     decodeit.close()
 
-    return {"yes":"bitches"}
+    return {"yes":"done"}
 
 @app.get("/api/v1/users")
 async def recognize_user():
